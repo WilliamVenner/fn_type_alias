@@ -1,3 +1,5 @@
+[![crates.io](https://img.shields.io/crates/v/fn_type_alias.svg)](https://crates.io/crates/fn_type_alias)
+
 # ✨ `fn_type_alias`
 
 A proc attribute macro that generates a type alias with the given identifier for the attributed function.
