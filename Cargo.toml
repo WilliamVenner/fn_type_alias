@@ -1,0 +1,18 @@
+[package]
+name = "fn_type_alias"
+version = "0.1.0"
+edition = "2018"
+authors = ["William Venner <william@venner.io>"]
+license = "MIT"
+repository = "https://github.com/WilliamVenner/fn_type_alias"
+description = "A proc attribute macro that generates a type alias with the given identifier for the attributed function"
+categories = ["development-tools"]
+keywords = ["function", "type", "alias", "macro"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1"
+syn = { version = "1", features = ["full"] }
+quote = "1"
